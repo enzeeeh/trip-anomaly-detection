@@ -4,6 +4,11 @@ Consolidated, automated system to identify suspicious, fraudulent, and inconsist
 
 **Status:** ✅ Complete & Operational | **Method:** Rule-Based Detection | **Output:** Excel (2 sheets)
 
+## 📥 Latest Updates (2025-12-26)
+- Added [anomaly_detection_v5.ipynb](anomaly_detection_v5.ipynb) with refined rule thresholds and investigation exports.
+- Captured outputs in [outputs/](outputs) including investigation CSVs and full anomaly dumps from the latest run.
+- Updated [anomaly_detection_v4.ipynb](anomaly_detection_v4.ipynb) for consistency with the v5 pipeline.
+
 ## 🎯 Objectives
 
 Detect and classify anomalous trip behavior to identify:
@@ -279,7 +284,7 @@ pip install -r requirements.txt
 2. ✅ **Rule-based detection:** 4 configurable suspicious flags
 3. ✅ **Excel export:** 2 sheets (flagged trips + user IDs)
 4. ✅ **Visualizations:** EDA plots and anomaly distribution charts
-5. ⏭️ **GitHub:** Ready to push when you're satisfied with results
+5. ⏭️ **Release tagging:** Create a version tag after validating v5 outputs
 
 ---
 
