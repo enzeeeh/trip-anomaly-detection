@@ -4,10 +4,12 @@ Consolidated, automated system to identify suspicious, fraudulent, and inconsist
 
 **Status:** ✅ Complete & Operational | **Method:** Rule-Based Detection | **Output:** Excel (2 sheets)
 
-## 📥 Latest Updates (2025-12-26)
-- Added [anomaly_detection_v5.ipynb](anomaly_detection_v5.ipynb) with refined rule thresholds and investigation exports.
-- Captured outputs in [outputs/](outputs) including investigation CSVs and full anomaly dumps from the latest run.
-- Updated [anomaly_detection_v4.ipynb](anomaly_detection_v4.ipynb) for consistency with the v5 pipeline.
+## 📥 Latest Updates (2026-01-08)
+- Added [anomaly_detection_v6.ipynb](anomaly_detection_v6.ipynb) with **user-level aggregation and infection status analysis**.
+- User statistics including anomaly rates, risk categorization (GREEN/YELLOW/ORANGE/RED), and infection status (NOT_INFECTED/INFECTED).
+- Advanced visualizations: bubble charts for 3D risk analysis, user trip distribution, and serious anomalies breakdown.
+- Full CSV exports of user statistics, infected users, and RED risk users for investigation.
+- Previous versions: [v5](anomaly_detection_v5.ipynb) (trip-level filtering), [v4](anomaly_detection_v4.ipynb), [v3](anomaly_detection_v3.ipynb), [v2](anomaly_detection_v2.ipynb), [v1](anomaly_detection_v1.ipynb).
 
 ## 🎯 Objectives
 
